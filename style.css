@@ -1,0 +1,61 @@
+.container {
+    background-color: rgb(218, 218, 218);
+    width: 272px;
+}
+
+.main-buttons {
+    display: flex;
+    margin: 8px 4px 8px 4px;
+    justify-content: space-between;
+}
+
+.event {
+    width: 120px;
+    height: 30px;
+    background: #3f3f56;
+    color: white;
+}
+
+#input-screen, #output-screen {
+    width: 260px;
+    border: none;
+    background: #e9ffe9;
+}
+
+#input-screen {
+    height: 35px;
+    font-size: 30px;
+    outline: none;
+}
+
+#output-screen {
+    font-size: 20px;
+    resize: none;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.trigonometric, .arithmetic, .digits, .setup {
+    height: 30px;
+    width: 50px;
+}
+
+.digits {
+    background: #def3ff40;
+}
+
+.arithmetic {
+    background-color: #c3c3c3;
+}
+
+#clr-button {
+    background-color: #c10404;
+}
+
+#del-button {
+    background-color: #ffff7c;
+}
+
+#equal-button {
+    background-color: green;
+}

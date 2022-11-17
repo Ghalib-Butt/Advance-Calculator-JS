@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <input type="text" name="input-screen" id="input-screen" onkeydown="keyPressed(event)">
+        <br>
+        <summary name="output-screen" id="output-screen" readonly disabled>0</summary>
+        <div class="main-buttons">
+            <button class="event">
+                Reset All
+            </button>
+            <button class="event">
+                View History
+            </button>
+        </div>
+        <table class="buttons-table">
+            <tr>
+                <td>
+                    <button class="trigonometric">
+                        sqrt
+                    </button>
+                </td>
+                <td>
+                    <button class="trigonometric">
+                        sin
+                    </button>
+                </td>
+                <td>
+                    <button class="trigonometric">
+                        cos
+                    </button>
+                </td>
+                <td>
+                    <button class="trigonometric">
+                        tan
+                    </button>
+                </td>
+                <td>
+                    <button class="setup" id="clr-button">
+                        CLR
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="digits">
+                        1
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        2
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        3
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        /
+                    </button>
+                </td>
+                <td>
+                    <button class="setup" id="del-button">
+                        DEL
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="digits">
+                        4
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        5
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        6
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        *
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        (
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="digits">
+                        7
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        8
+                    </button>
+                </td>
+                <td>
+                    <button class="digits">
+                        9
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        +
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        )
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="digits">
+                        0
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        .
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        ^
+                    </button>
+                </td>
+                <td>
+                    <button class="arithmetic">
+                        -
+                    </button>
+                </td>
+                <td>
+                    <button class="setup" id="equal-button">
+                        ANS
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="process.js"></script>
+</html>

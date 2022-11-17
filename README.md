@@ -1,1 +1,1 @@
-# Shopify API Library for Ruby
+# JS Calculator
